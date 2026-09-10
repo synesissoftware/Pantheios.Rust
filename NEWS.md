@@ -1,8 +1,9 @@
 # Pantheios.Rust - News <!-- omit in toc -->
 
-| Date                 | News Item                                                  |
-| -------------------- | ---------------------------------------------------------- |
-| 31st August 2026     | Pantheios.Rust 0.0.0 scaffold baseline recorded            |
+
+| Date             | News Item                                       | Details                             |
+| ---------------- | ----------------------------------------------- | ----------------------------------- |
+| 31st August 2026 | Pantheios.Rust 0.0.0 scaffold baseline recorded | Unpublished scaffold; no public API |
 
 
 <!-- ########################### end of file ########################### -->
