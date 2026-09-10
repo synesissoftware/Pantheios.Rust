@@ -7,12 +7,32 @@
 authors = [
 	"Matt Wilson <matthew@synesis.com.au>",
 ]
-description = "Pantheios (for Rust)"
+categories = [
+	"development-tools",
+]
+description = "Reserved scaffold for Pantheios logging (for Rust)"
+documentation = "https://docs.rs/pantheios"
 edition = "2021"
+exclude = [
+	".cargo",
+	".cursor",
+	".github",
+	".vimrc",
+	".vscode",
+	"scripts",
+	"target",
+]
 homepage = "https://github.com/synesissoftware/Pantheios.Rust"
+keywords = [
+	"logging",
+	"pantheios",
+]
 license = "BSD-3-Clause"
 name = "pantheios"
+publish = false
 readme = "README.md"
+repository = "https://github.com/synesissoftware/Pantheios.Rust"
+rust-version = "1.74"
 version = "0.0.0"
 
 
@@ -29,14 +49,37 @@ path = "src/lib.rs"
 
 [features]
 
+default = [
+]
+
+# General features:
+#
+# - "_NEVER_TO_BE_ENABLED" - this is a placeholder feature and must NEVER be specified;
+# - "null-feature" - a feature that has no effect (and, thus, is useful for simplifying driver scripts);
+
+_NEVER_TO_BE_ENABLED = []
+null-feature = []
+
+
+# Crate-specific features:
+#
+
 
 # ##########################################################
 # Dependencies
 
+[build-dependencies]
+
 [dependencies]
+
+base-traits = { version = "0.1", default-features = false, features = [
+]}
 
 
 [dev-dependencies]
+
+test_help-rs = { version = "0.2", default-features = false, features = [
+]}
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
