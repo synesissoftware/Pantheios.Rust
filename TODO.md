@@ -1,6 +1,13 @@
 # Pantheios.Rust - TODO <!-- omit in toc -->
 
 
+## Table of Contents <!-- omit in toc -->
+
+- [Functional improvements](#functional-improvements)
+- [Performance improvements](#performance-improvements)
+- [Packaging improvements](#packaging-improvements)
+
+
 ## Functional improvements
 
 * [ ] Establish and document a supported Rust logging API in a separate
@@ -11,7 +18,7 @@
 
 ## Performance improvements
 
-* \<none>;
+* \<none>
 
 
 ## Packaging improvements
