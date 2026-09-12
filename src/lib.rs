@@ -5,5 +5,4 @@
 //! interfaces, tests, and examples belong to future implementation work and
 //! are intentionally absent from this package.
 
-
 /* ///////////////////////////// end of file //////////////////////////// */
