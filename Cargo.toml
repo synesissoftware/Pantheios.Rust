@@ -29,7 +29,7 @@ keywords = [
 ]
 license = "BSD-3-Clause"
 name = "pantheios"
-publish = false
+publish = true
 readme = "README.md"
 repository = "https://github.com/synesissoftware/Pantheios.Rust"
 rust-version = "1.74"
