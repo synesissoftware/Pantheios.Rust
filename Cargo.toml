@@ -33,7 +33,7 @@ publish = false
 readme = "README.md"
 repository = "https://github.com/synesissoftware/Pantheios.Rust"
 rust-version = "1.74"
-version = "0.0.0"
+version = "0.0.1"
 
 
 # ##########################################################
