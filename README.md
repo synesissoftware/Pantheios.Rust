@@ -1,0 +1,138 @@
+# Pantheios.Rust <!-- omit in toc -->
+
+A future Rust implementation in the Pantheios project family.
+
+![Language](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![MSRV](https://img.shields.io/badge/MSRV-1.74-lightgrey)
+[![CI](https://github.com/synesissoftware/Pantheios.Rust/actions/workflows/ci.yml/badge.svg)](https://github.com/synesissoftware/Pantheios.Rust/actions/workflows/ci.yml)
+
+
+## Table of Contents <!-- omit in toc -->
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Components](#components)
+  - [Supported API](#supported-api)
+  - [Features](#features)
+- [Examples](#examples)
+- [Project Information](#project-information)
+  - [Where to get help](#where-to-get-help)
+  - [Contribution guidelines](#contribution-guidelines)
+  - [Minimum Supported Rust Version (MSRV)](#minimum-supported-rust-version-msrv)
+  - [Dependencies](#dependencies)
+    - [Efferent (fan-out)](#efferent-fan-out)
+      - [Runtime Dependencies](#runtime-dependencies)
+      - [Build Dependencies](#build-dependencies)
+      - [Development Dependencies](#development-dependencies)
+    - [Afferent (fan-in)](#afferent-fan-in)
+  - [Related projects](#related-projects)
+  - [License](#license)
+
+
+## Introduction
+
+**Pantheios.Rust** is currently an unpublished scaffold. No supported public
+API currently exists, and the package does not provide logging functionality.
+The repository reserves the Rust identity for future work in the Pantheios
+project family.
+
+
+## Installation
+
+The package is intentionally unpublished with `publish = false`. It is not
+currently available as a supported crates.io dependency, and no installation
+procedure should be inferred from this scaffold.
+
+This library repository retains **Cargo.lock** so local and CI validation can
+use reproducible dependency resolution.
+The existing formatting configuration retains nightly-only options, so
+**scripts/fmt** selects the pinned `nightly-2026-09-10` formatter.
+
+
+## Components
+
+### Supported API
+
+No supported public API is currently defined.
+
+
+### Features
+
+No public features are currently defined.
+
+
+## Examples
+
+No examples are currently applicable because there is no supported public API.
+An **EXAMPLES.md** file will be added when a genuine API example exists.
+
+
+## Project Information
+
+### Where to get help
+
+Use the [Pantheios.Rust issue tracker](https://github.com/synesissoftware/Pantheios.Rust/issues)
+for questions about the scaffold and future project work.
+
+
+### Contribution guidelines
+
+Contributions should remain limited to scaffold, documentation, and packaging
+
+
+### Minimum Supported Rust Version (MSRV)
+
+The declared Minimum Supported Rust Version (MSRV) for **Pantheios.Rust** is **1.74**.
+
+This MSRV guarantee applies to the library crate itself, its runtime dependencies (`[dependencies]`), and its build dependencies (`[build-dependencies]`). Downstream consumers compiling this crate as a dependency are guaranteed that it builds cleanly on the declared MSRV toolchain.
+
+Development dependencies (`[dev-dependencies]`, such as benchmarking frameworks like **criterion**) may require newer Rust toolchains for local development or performance testing. These dev-dependencies are never fetched or compiled by downstream consumers and do not affect the library's MSRV guarantee.
+
+
+work until a separate implementation task establishes a supported public API.
+Do not add placeholder logging mechanisms, public interfaces, behavioural tests,
+or examples as part of boilerplate work.
+
+
+### Dependencies
+
+#### Efferent (fan-out)
+
+No dependencies are currently required by the scaffold.
+
+
+##### Runtime Dependencies
+
+None.
+
+
+##### Build Dependencies
+
+None.
+
+
+##### Development Dependencies
+
+None.
+
+
+#### Afferent (fan-in)
+
+No downstream consumers are currently recorded.
+
+
+### Related projects
+
+The package is reserved for the Rust side of the Pantheios project family.
+No supported Rust implementation or related Rust consumer is currently
+recorded.
+
+
+### License
+
+**Pantheios.Rust** is released under the 3-clause BSD license. See
+[LICENSE](./LICENSE) for details.
+
+
+<!-- ########################### end of file ########################### -->

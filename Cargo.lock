@@ -3,5 +3,34 @@
 version = 3
 
 [[package]]
+name = "base-traits"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "febda1e6bd75ec4a0680596f5d8689bbc391c3213607d286ab711f3b8b091ee1"
+dependencies = [
+ "bt-rs",
+]
+
+[[package]]
+name = "bt-rs"
+version = "0.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5b33a0644862185265eb4bee9b1679c1ae36f8258c000f3f482210acd95f7d70"
+
+[[package]]
 name = "pantheios"
-version = "0.0.0"
+version = "0.0.1"
+dependencies = [
+ "base-traits",
+ "test_help-rs",
+]
+
+[[package]]
+name = "test_help-rs"
+version = "0.2.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1fbd2a2dbea40fe948ff30aab06e73ecf79ff443ec01d38dc16ed9a28e1a4847"
+dependencies = [
+ "base-traits",
+ "bt-rs",
+]
